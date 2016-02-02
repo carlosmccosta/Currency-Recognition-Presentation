@@ -1,5 +1,32 @@
-\section{\scshape Testing Dataset}\label{sec:results}
+\section{\scshape Testing Dataset}\label{sec:testing-dataset}
 
-\begin{frame}{Overview}
-	Text.
+\subsection*{Dataset Overview}
+\begin{frame}{Dataset Overview}
+	\begin{table}[ht]
+		\centering
+		\caption{Testing dataset overview (80 banknotes)}
+		\small
+		\begin{tabu} to 0.9\textwidth { X[2.7,l,m] X[l,m] X[l,m] X[l,m] X[l,m] X[l,m] X[l,m] X[l,m] }
+			\textbf{Banknote value} & 5\,\euro{} & 10\,\euro{} & 20\,\euro{} & 50\,\euro{} & 100\,\euro{} & 200\,\euro{} & 500\,\euro{}	\\
+			\noalign{\vskip 2mm} 
+			\hline
+			\noalign{\vskip 2mm} 
+			\textbf{Nº of banknotes}			& 15		 & 12		   & 19			 & 19		   & 6			  & 9			 & 15			\\
+		\end{tabu}
+		\label{tab:dataset-overview}
+	\end{table}
+
+	\begin{table}[ht]
+		\caption{Number of banknotes per image}
+		\centering
+		\small
+		\begin{tabu} { X[c,m] X[c,m] X[c,m] }
+			\rowfont{\bfseries\itshape} Images with 1 banknote & Images with 2 banknotes & Images with 3 banknotes \\
+			\noalign{\vskip 2mm} 
+			\hline
+			\noalign{\vskip 2mm} 
+			67			   & 11				  & 2	\\
+		\end{tabu}
+		\label{tab:number-of-banknotes-per-image}
+	\end{table}
 \end{frame}

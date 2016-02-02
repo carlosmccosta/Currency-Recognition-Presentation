@@ -6,6 +6,7 @@
 
 \setbeamertemplate{footline}[page number]{}
 \setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{caption}[numbered]
 
 \useoutertheme[subsection=false,shadow]{miniframes}
 \useinnertheme{default}
@@ -51,13 +52,10 @@
 \usepackage{url}
 \usepackage{hyperref}
 \usepackage[capitalise,noabbrev,nameinlink]{cleveref}
-\crefname{section}{Sect.}{Sect.}
-\Crefname{section}{Section}{Sections}
-\crefname{figure}{Fig.}{Fig.}
-\Crefname{figure}{Figure}{Figures}
 \usepackage[nonumberlist,acronym,nomain,nowarn]{glossaries}
 \usepackage[gen]{eurosym}
 \usepackage{etoolbox}
+\usepackage{caption}
 \glsdisablehyper
 \makeglossaries
 
@@ -65,4 +63,4 @@
 \g@addto@macro{\UrlBreaks}{\UrlOrds}
 \makeatother
 
-\overfullrule=3mm
+%\overfullrule=3mm
